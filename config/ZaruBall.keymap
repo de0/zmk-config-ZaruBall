@@ -139,11 +139,11 @@
             display-name = "Mouse";
             sensor-bindings = <&scroll_down_up>;
             bindings = <
-&trans  &trans          &trans     &trans     &trans     &trans                     &trans  &trans  &trans  &trans            &trans           &trans     &trans     &trans     &trans          &trans
-&trans  &trans          &trans     &trans     &trans     &trans                     &trans  &trans  &trans  &trans            &trans           &trans     &trans     &trans     &msc SCRL_UP    &trans
-&trans  &msc SCRL_UP    &mkp RCLK  &mkp MCLK  &mkp LCLK  &kp LC(LS(TAB))  &trans    &trans  &trans  &trans  &trans    &trans  &kp LS(LC(TAB))  &mkp LCLK  &mkp MCLK  &mkp RCLK  &msc SCRL_DOWN  &trans
-&trans  &msc SCRL_DOWN  &trans     &mkp MB4   &mkp MB5   &kp LC(TAB)      &trans    &trans  &trans  &trans  &trans    &trans  &kp LC(TAB)      &mkp MB4   &mkp MB5   &trans     &trans          &trans
-&trans  &trans                     &trans     &trans     &trans           &trans                                      &trans  &trans                                                            &to 0
+&trans  &trans  &trans  &trans     &trans     &trans            &trans  &trans  &trans  &trans            &trans           &trans     &trans          &trans     &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans            &trans  &trans  &trans  &trans            &trans           &trans     &mkp MCLK       &trans     &trans  &trans
+&trans  &trans  &trans  &mkp MCLK  &mkp LCLK  &trans  &trans    &trans  &trans  &trans  &trans    &trans  &kp LS(LC(TAB))  &mkp LCLK  &msc SCRL_UP    &mkp RCLK  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans  &trans    &trans  &trans  &trans  &trans    &trans  &kp LC(TAB)      &mkp MB4   &msc SCRL_DOWN  &mkp MB5   &trans  &trans
+&trans  &trans          &trans     &trans     &trans  &trans                                      &trans  &trans                                                         &to 0
             >;
         };
 
