@@ -41,8 +41,8 @@
         compatible = "zmk,conditional-layers";
 
         test {
-            if-layers = <4>;
-            then-layer = <4>;
+            if-layers = <2>;
+            then-layer = <2>;
         };
     };
 };
