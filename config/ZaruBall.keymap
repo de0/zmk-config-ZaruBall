@@ -41,8 +41,8 @@
         compatible = "zmk,conditional-layers";
 
         tri_layer {
-            if-layers = <1 3>;
-            then-layer = <4>;
+            if-layers = <1 4>;
+            then-layer = <5>;
         };
     };
 };
@@ -157,6 +157,16 @@
             >;
 
             sensor-bindings = <&scroll_down_up>;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans  &trans  &trans  &trans                                      &trans  &trans                                  &trans
+            >;
         };
 
         lower_layer {
