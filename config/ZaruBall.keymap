@@ -134,7 +134,7 @@
             bindings = <
 &trans  &trans  &trans  &trans     &trans     &trans            &trans  &trans  &trans  &trans            &trans  &trans           &trans          &trans       &trans  &trans
 &trans  &trans  &trans  &trans     &trans     &trans            &trans  &trans  &trans  &trans            &trans  &kp LS(LC(TAB))  &mkp MCLK       &kp LC(TAB)  &trans  &trans
-&trans  &trans  &trans  &mkp MCLK  &mkp LCLK  &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &mkp LCLK        &msc SCRL_UP    &mkp RCLK    &trans  &trans
+&trans  &trans  &trans  &mkp MCLK  &mkp LCLK  &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &mkp LCLK        &msc SCRL_UP    &mkp RCLK    &mo 3   &trans
 &trans  &trans  &trans  &trans     &trans     &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB4         &msc SCRL_DOWN  &mkp MB5     &to 3   &trans
 &trans  &trans          &trans     &trans     &trans  &trans                                      &trans  &trans                                                        &to 0
             >;
